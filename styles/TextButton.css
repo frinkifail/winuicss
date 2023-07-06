@@ -1,0 +1,17 @@
+button.dark.primary {
+    background: var(--winui-primary-dark);
+    color: var(--winui-onprimary);
+}
+button.dark.primary:hover {
+    background: var(--winui-primary-hover);
+}
+button.dark.primary:active {
+    background: var(--winui-primary-active);
+}
+button {
+    padding: 7.5px 20px;
+    border-radius: 16px;
+    border: none;
+    font-family: inherit;
+    transition: 0.1s ease-in-out background;
+}

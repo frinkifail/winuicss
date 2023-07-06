@@ -1,0 +1,49 @@
+@import url('Segoe UI/style.css');
+
+:root {
+    /* Primary colors */
+    --winui-primary: #0078D7;
+    --winui-primary-dark: #005A9E;
+    --winui-primary-light: #00A3EF;
+    --winui-primary-hover: #005EAD;
+    --winui-primary-active: #003A6E;
+
+    /* On Primary colors */
+    --winui-onprimary: #FFFFFF;
+    --winui-onprimary-dark: #000000;
+    --winui-onprimary-light: #000000;
+
+    /* Accent colors */
+    --winui-accent: #5C2D91;
+    --winui-accent-dark: #452871;
+    --winui-accent-light: #7F4BA0;
+    --winui-accent-hover: #51308C;
+    --winui-accent-active: #351F58;
+
+    /* On Accent colors */
+    --winui-onaccent: #FFFFFF;
+    --winui-onaccent-dark: #000000;
+    --winui-onaccent-light: #000000;
+
+    /* Neutral colors */
+    --winui-neutral-black: #000000;
+    --winui-neutral-white: #FFFFFF;
+    --winui-neutral-lightest: #F8F8F8;
+    --winui-neutral-lighter: #F2F2F2;
+    --winui-neutral-light: #E5E5E5;
+    --winui-neutral-medium: #CCCCCC;
+    --winui-neutral-dark: #8A8886;
+    --winui-neutral-darker: #484644;
+
+    /* Semantic colors */
+    --winui-success: #6BB700;
+    --winui-error: #D13438;
+    --winui-warning: #E69500;
+    --winui-info: #107C10;
+}
+
+body {
+    background: var(--winui-neutral-black);
+    color: var(--winui-neutral-lightest);
+    font-family: 'Segoe UI Regular', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

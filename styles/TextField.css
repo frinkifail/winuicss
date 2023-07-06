@@ -1,0 +1,15 @@
+input.dark, textarea.dark {
+    background: var(--winui-neutral-darker);
+    font-family: inherit;
+    color: var(--winui-neutral-lighter);
+    border: none;
+    outline: none;
+    border-bottom: 2.5px solid var(--winui-neutral-dark);
+    transition: 0.1s ease-in-out all;
+    padding: 7.5px 20px;
+    border-radius: 8px;
+}
+input.dark:hover, textarea.dark:hover, input.dark:active, textarea.dark:active, input.dark:focus, textarea.dark:focus {
+    /* background: var(--winui-neutral-darker); */
+    border-bottom-color: var(--winui-accent-dark);
+}
